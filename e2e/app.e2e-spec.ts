@@ -1,10 +1,10 @@
-import { RecipeBookModulePage } from './app.po';
+import { RecipeBookPage } from './app.po';
 
-describe('recipe-book-module App', function() {
-  let page: RecipeBookModulePage;
+describe('recipe-book App', function() {
+  let page: RecipeBookPage;
 
   beforeEach(() => {
-    page = new RecipeBookModulePage();
+    page = new RecipeBookPage();
   });
 
   it('should display message saying app works', () => {

@@ -1,6 +1,6 @@
 import { browser, element, by } from 'protractor';
 
-export class RecipeBookModulePage {
+export class RecipeBookPage {
   navigateTo() {
     return browser.get('/');
   }

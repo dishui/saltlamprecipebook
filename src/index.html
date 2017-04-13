@@ -2,13 +2,27 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>RecipeBookModule</title>
+  <title>SaltLampRecipeBook</title>
   <base href="/">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 </head>
 <body>
-  <app-root>Loading...</app-root>
+  <rb-root>Loading...</rb-root>
+  <script src="https://www.gstatic.com/firebasejs/3.7.6/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyD1207fMAjeKBK4RSCszzr9ijzssc9pfK4",
+      authDomain: "saltlampreipebook.firebaseapp.com",
+      databaseURL: "https://saltlampreipebook.firebaseio.com",
+      projectId: "saltlampreipebook",
+      storageBucket: "saltlampreipebook.appspot.com",
+      messagingSenderId: "973230437627"
+    };
+    firebase.initializeApp(config);
+</script>
 </body>
 </html>
